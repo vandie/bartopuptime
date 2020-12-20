@@ -21,12 +21,12 @@ status-website:
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
   logoUrl: https://app.bartop.xyz/assets/loader.svg
-  name: BartopXYZ
-  introTitle: "**BartopXYZ** is a cocktail and drink lookup service that works using the drink in your bar."
-  introMessage: This page allows you to see the uptime of our various systems and will report any issues that may be occuring at this point in time.
+  name: BartopXYZ Uptime
+  introTitle: "**BartopXYZ** is a cocktail and drink lookup app that recomends drinks you can atually make"
+  introMessage: This page allows you to see the uptime of our various systems and will report any issues that may be occuring that could stop you from enjoying our content.
   navbar:
     - title: Status
       href: /
 
-# Upptime also supports notifications, assigning issues, and more
+      # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
