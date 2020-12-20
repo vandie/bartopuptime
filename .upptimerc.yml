@@ -1,34 +1,32 @@
 # Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your Github repository name
+owner: vandie # Your GitHub username
+repo: bartop-uptime # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: App Servers
+    url: https://app.bartop.xyz
+  - name: API Servers
+    url: $API_SERVER
+  - name: API Database
+    url: $DATABASE_URL
+    headers: 
+      - "Authorization: Bearer $API_TOKEN"
+  - name: Dashboard Systems
+    url: https://bartop.xyz
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
+  cname: status.bartop.xyz
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/koj-co/upptime)
+  logoUrl: https://https://app.bartop.xyz/assets/loader.svg
+  name: BartopXYZ
+  introTitle: "**BartopXYZ** is a cocktail and drink lookup service that works using the drink in your bar."
+  introMessage: This page allows you to see the uptime of our various systems and will report any issues that may be occuring at this point in time.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
