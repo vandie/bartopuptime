@@ -1,7 +1,7 @@
 url: $DATABASE_URL
 status: down
 code: 404
-responseTime: 18
-lastUpdated: 2021-08-19T23:04:18.922Z
+responseTime: 9
+lastUpdated: 2021-08-20T23:03:58.589Z
 startTime: Sun Dec 20 2020 12:15:19 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
